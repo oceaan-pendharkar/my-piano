@@ -5,6 +5,13 @@
     border: 2px solid black;
 }
 
+.key-clicked {
+    background-color: blue;
+    height: 300px;
+    width: 60px;
+    border: 2px solid black;
+}
+
 .key-text {
     position: relative;
     color: black;
@@ -17,6 +24,16 @@
 .black-key {
     position: relative;
     background-color: black;
+    margin-left: -17px;
+    margin-right: -17px;
+    height: 200px;
+    width: 30px;
+    z-index: 2;
+}
+
+.black-key-clicked {
+    position: relative;
+    background-color: purple;
     margin-left: -17px;
     margin-right: -17px;
     height: 200px;
