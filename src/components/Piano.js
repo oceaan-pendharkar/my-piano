@@ -1,24 +1,22 @@
-import Whitekey from './Whitekey';
-import Blackkey from './Blackkey';
+import Key from './Key';
 import '../styles/Piano.css';
 
 export default function Piano() {
         return(
             <div className="piano">
-                <Whitekey />
-                <Blackkey />
-                <Whitekey />
-                <Blackkey />
-                <Whitekey />
-                <Whitekey />
-                <Blackkey />
-                <Whitekey />
-                <Blackkey />
-                <Whitekey />
-                <Blackkey />
-                <Whitekey />
+                <Key className="key"/>
+                <Key className="black-key"/>
+                <Key className="key"/>
+                <Key className="black-key"/>
+                <Key className="key"/>
+                <Key className="key"/>
+                <Key className="black-key"/>
+                <Key className="key"/>
+                <Key className="black-key"/>
+                <Key className="key"/>
+                <Key className="black-key"/>
+                <Key className="key"/>
             </div>
         )
-    
 }
 

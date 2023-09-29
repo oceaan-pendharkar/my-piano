@@ -1,8 +1,8 @@
 import '../styles/Key.css';
 
-export default function Blackkey() {
+export default function Key(props) {
     return (
-        <div className="black-key">
+        <div className={props.className}>
             <div className="note"></div>
         </div>
     )
