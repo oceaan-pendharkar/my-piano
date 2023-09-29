@@ -16,14 +16,15 @@ class Key extends React.Component {
                 </div>
             )
         }
-
-        return(
-            <div className={keyClassName}>
-                <div className="key-text">
+        else {
+            return(
+                <div className={keyClassName}>
+                    <div className="key-text">
                     {this.props.note.toUpperCase()}
+                    </div>
                 </div>
-            </div>
         )
+        }
     }
 }
 
