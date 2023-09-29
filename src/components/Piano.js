@@ -1,19 +1,24 @@
-import React from 'react';
-import Key from './Key';
+import Whitekey from './Whitekey';
+import Blackkey from './Blackkey';
 import '../styles/Piano.css';
-import NOTES from '../global/constants';
 
-class Piano extends React.Component{
-    render(){
-        const keys = NOTES.map(note => {
-            return <Key note={note} key={note} />
-        })
+export default function Piano() {
         return(
             <div className="piano">
-                {keys}
+                <Whitekey />
+                <Blackkey />
+                <Whitekey />
+                <Blackkey />
+                <Whitekey />
+                <Whitekey />
+                <Blackkey />
+                <Whitekey />
+                <Blackkey />
+                <Whitekey />
+                <Blackkey />
+                <Whitekey />
             </div>
         )
-    }
+    
 }
 
-export default Piano;
