@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Key extends React.Compoent {
+class Key extends React.Component {
     render(){
         return(
             <div>
