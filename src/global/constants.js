@@ -1,3 +1,3 @@
-const Notes = ['C', 'DF', 'D', 'EF', 'E', 'F', 'GF', 'G', 'AF', 'A', 'BF', 'B'];
+const Notes = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
 
 export default Notes;
